@@ -1,0 +1,26 @@
+{
+  "name": "comphp/console",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Console\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Console\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  }
+}
