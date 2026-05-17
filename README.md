@@ -35,6 +35,7 @@ Command failures should return non-zero exit statuses and should use package-spe
 
 ## Documentation
 
+- [Documentation index](docs/index.md)
 - [Usage](docs/usage.md)
 - [Testing](TESTING.md)
 - [Contributing](CONTRIBUTING.md)
